@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#cardbox {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+}
+
+#card {
+    width: 220px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px ;
+    gap:10px;
+}    
+
+#card img {
+    width: 100%;
+    height: 50%;
+    border-radius: 10px 10px;
+}
+
+#cardhead {
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    color:grey;  
+}
+ #image{
+    width:50px;
+    height:50px;
+ }
+
+#price_box {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    }
+
+#price {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+#onwards {
+    font-size: medium;
+    font-style: oblique;
+    color:rgb(71, 66, 66);
+}
+
+#delievery {
+    font-size: medium;
+    font-style: normal;
+    color: grey;
+}
+
+#ratingbox {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#stars {
+    font-size: 20px;
+    font-weight: bold;
+    background: rgba(3, 141, 99);
+    color: aliceblue;
+    padding: 4px 8px; 
+    border-radius: 16px; 
+    fill: rgb(255, 255, 255);
+}
+
+#reviews {
+    color:rgb(78, 76, 76)
+   }
